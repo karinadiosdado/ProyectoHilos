@@ -28,7 +28,14 @@ la clase **ThredSimple** este hereda de Thred lo que permite crear y ejecutar un
 **Que es una Flag**
 es una variable que indica el estado de un programa esta es boleana
 **que es el metodo wait**
-pausa un Hilo hasta que otro lo despierte con un notifi
+pausa un Hilo hasta que otro lo despierte con un notify(). solo funciona dentro de bloques synchronized
+
+**Que es el metodo notify**
+despiesta un hilo que estaba en wait() permitiendo continuar con la ejecuacion
+
+**Diferencia entre programacion normal y programacion funcional**
+la programacion normal es imperativa, se vasa en pasos y cambios de variabls usa for y while variables y mutables 
+minetras que la programacion funcional se vasa en funcione spuras y datos que no cambian usa map, redue, evita cambios de estado
 
 
 
