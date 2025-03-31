@@ -1,4 +1,4 @@
-apckage org.aguzman.hilos.ejemplosync.runnable;
+package org.aguzman.hilos.ejemplosync.runnable;
 
 import org.aguzman.hilos.ejemplosync.Panaderia;
 
