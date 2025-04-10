@@ -21,7 +21,7 @@ public class Panaderia {
     public synchronized String consumir(){
         while(!disponible){
             try {
-                wait();
+                wait(); 
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
