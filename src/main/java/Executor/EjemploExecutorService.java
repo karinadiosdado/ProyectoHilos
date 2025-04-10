@@ -29,6 +29,6 @@ ScheduledExecutorService executor = Executors.newScheduledThreadPool(2);
         }, 2, TimeUnit.SECONDS);
         System.out.println("Hasta aqui llegue");
         executor.shutdown();
-        System.out.println("Hola sigo voivo ");
+        System.out.println("Hola sigo vivo");
     }
 }
